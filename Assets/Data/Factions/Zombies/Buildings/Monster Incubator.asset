@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e595554e8e8de44e8cc70b8304dc953, type: 3}
+  m_Name: Monster Incubator
+  m_EditorClassIdentifier: 
+  name: Monster Incubator
+  faction: 3
+  tileWidth: 2
+  tileHeight: 2
+  original:
+    hallLevelNeeded: 1
+    health: 5600
+    icon: {fileID: 21300000, guid: d6d8979117414ad4a94d0690f2cfba1d, type: 3}
+    buildCostGold: 700
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 5
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 9056659240922559967, guid: aa313a8fe365b4f4886a1be77f5b0cb9,
+      type: 3}
+    prefab: {fileID: 391266567145882963, guid: 2183f1c5b53e28d459ccb547b20ec2d6, type: 3}
+    constructionPrefab: {fileID: 9056659240922559967, guid: aa313a8fe365b4f4886a1be77f5b0cb9,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    canTrain:
+    - {fileID: 11400000, guid: 53f27904b9cbf2c4193f71036776ba17, type: 2}
+    - {fileID: 11400000, guid: f9473340a51699e4e807408981cc8d56, type: 2}
+    slotSizes: 06000000080000000a000000
+  upgrades: []

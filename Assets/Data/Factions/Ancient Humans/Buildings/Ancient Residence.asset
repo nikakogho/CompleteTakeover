@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccec779bb80cf140ba7d27b8b7da868, type: 3}
+  m_Name: Ancient Residence
+  m_EditorClassIdentifier: 
+  name: Ancient Residence
+  faction: 0
+  tileWidth: 2
+  tileHeight: 2
+  resourceType: 0
+  original:
+    hallLevelNeeded: 1
+    health: 2000
+    icon: {fileID: 21300000, guid: 30c5ba413c2ba7740b640036763e28e3, type: 3}
+    buildCostGold: 400
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 0
+      seconds: 22
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 8
+    ghostPrefab: {fileID: 1585953097827890, guid: 60f211a93ef5025479640f4c4ac111f9,
+      type: 3}
+    prefab: {fileID: 1322585399218444, guid: 4ba424ebb27afa643b4f8cb606171eff, type: 3}
+    constructionPrefab: {fileID: 1585953097827890, guid: 60f211a93ef5025479640f4c4ac111f9,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 10
+    capacity: 360
+    fillTime:
+      hours: 1
+      minutes: 0
+      seconds: 0
+  upgrades:
+  - hallLevelNeeded: 1
+    health: 3500
+    icon: {fileID: 21300000, guid: ace4a884e488e5d49b9bf1c49c4c882a, type: 3}
+    buildCostGold: 1400
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 7
+      seconds: 30
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1044409336371504, guid: 0b9dd0c63ebc3434882cd9c71780e7b9,
+      type: 3}
+    prefab: {fileID: 1670508798291318, guid: 031a475a299543b47b8f20a7dac24789, type: 3}
+    constructionPrefab: {fileID: 1044409336371504, guid: 0b9dd0c63ebc3434882cd9c71780e7b9,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    capacity: 1000
+    fillTime:
+      hours: 1
+      minutes: 30
+      seconds: 0
+  - hallLevelNeeded: 1
+    health: 5000
+    icon: {fileID: 21300000, guid: 20a3ea51a9f0edf4a845e3ccee7696a4, type: 3}
+    buildCostGold: 3000
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 20
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1586396986172580, guid: 56ca478ecd5d5484eb5f03f9cac3c522,
+      type: 3}
+    prefab: {fileID: 1540970845104982, guid: beb99c42c2ea1904da7345226829f6d1, type: 3}
+    constructionPrefab: {fileID: 1586396986172580, guid: 56ca478ecd5d5484eb5f03f9cac3c522,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 5
+    capacity: 2500
+    fillTime:
+      hours: 2
+      minutes: 15
+      seconds: 0
+  - hallLevelNeeded: 2
+    health: 8000
+    icon: {fileID: 21300000, guid: 50d51f7636ead114da593c7cc02f0699, type: 3}
+    buildCostGold: 5000
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 45
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1381537035841652, guid: de2c80339d4673f4f915f59b0cc52549,
+      type: 3}
+    prefab: {fileID: 1146880346082160, guid: 6a5d89a6369dbb24193f4190bcb98809, type: 3}
+    constructionPrefab: {fileID: 1381537035841652, guid: de2c80339d4673f4f915f59b0cc52549,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 4
+    capacity: 5000
+    fillTime:
+      hours: 3
+      minutes: 0
+      seconds: 0
+  - hallLevelNeeded: 2
+    health: 10000
+    icon: {fileID: 21300000, guid: 3913ffc9860bd494b954f4934655a778, type: 3}
+    buildCostGold: 12000
+    buildCostElixir: 0
+    buildCostGems: 2
+    buildTime:
+      hours: 1
+      minutes: 15
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1353485396681364, guid: 6b18ecea610672142bf0caaa745e1829,
+      type: 3}
+    prefab: {fileID: 1934037935797426, guid: b67c7a869c384674e9c1dd38bd3f4149, type: 3}
+    constructionPrefab: {fileID: 1353485396681364, guid: 6b18ecea610672142bf0caaa745e1829,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 4
+    capacity: 12000
+    fillTime:
+      hours: 4
+      minutes: 30
+      seconds: 0
+  - hallLevelNeeded: 3
+    health: 12500
+    icon: {fileID: 21300000, guid: 425ff8b18c6cf974dbf2f4f37811512a, type: 3}
+    buildCostGold: 17500
+    buildCostElixir: 0
+    buildCostGems: 3
+    buildTime:
+      hours: 2
+      minutes: 0
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1659970177620962, guid: 35d048b70840da64bb14ba3ff5b112b9,
+      type: 3}
+    prefab: {fileID: 1296526900842148, guid: d9e2b9a93068ed24e8e195d8367d84d9, type: 3}
+    constructionPrefab: {fileID: 1659970177620962, guid: 35d048b70840da64bb14ba3ff5b112b9,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 4
+    capacity: 22500
+    fillTime:
+      hours: 6
+      minutes: 0
+      seconds: 0
+  - hallLevelNeeded: 3
+    health: 15000
+    icon: {fileID: 21300000, guid: 82b198179b9679448b4af2997b9de283, type: 3}
+    buildCostGold: 25000
+    buildCostElixir: 0
+    buildCostGems: 3
+    buildTime:
+      hours: 3
+      minutes: 0
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1774565977267508, guid: 295adb72155e2474b8d284cb8f3bd077,
+      type: 3}
+    prefab: {fileID: 1672615379257584, guid: 7e6ae432ff971534e8c2d1ba37da118e, type: 3}
+    constructionPrefab: {fileID: 1774565977267508, guid: 295adb72155e2474b8d284cb8f3bd077,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    yieldTime:
+      hours: 0
+      minutes: 0
+      seconds: 4
+    capacity: 50000
+    fillTime:
+      hours: 8
+      minutes: 0
+      seconds: 0

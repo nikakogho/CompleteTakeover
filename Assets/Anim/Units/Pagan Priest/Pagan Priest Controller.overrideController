@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Pagan Priest Controller
+  m_Controller: {fileID: 9100000, guid: 16ee58ab01dcb504592726caa77fb2f8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0ccf19ac9e02c604a8d92e82b50a1c63, type: 2}
+    m_OverrideClip: {fileID: 7400002, guid: 76f9da2b27d2d26479d6bf7d722c34c5, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 7ec04db5472f2d04e9f18b5c401472f3, type: 2}
+    m_OverrideClip: {fileID: 7400002, guid: bfaa927c559130047bc47dddc10f343d, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: be0f202b578f24d4f969508b40aa29f2, type: 2}
+    m_OverrideClip: {fileID: 7400002, guid: b939100b35cf1fa40a4b790e1d1f27e1, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 238da76a1dbfce845ae134e2e01e416d, type: 2}
+    m_OverrideClip: {fileID: 7400002, guid: 7e281a3458e01794799302ce4947d02c, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 943221f09e069a94dbf5c2c5ce1304d4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 04ec27244e5f368408d0279998e65143, type: 2}

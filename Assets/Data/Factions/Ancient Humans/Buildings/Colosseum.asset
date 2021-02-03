@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e595554e8e8de44e8cc70b8304dc953, type: 3}
+  m_Name: Colosseum
+  m_EditorClassIdentifier: 
+  name: Colosseum
+  faction: 0
+  tileWidth: 3
+  tileHeight: 2
+  original:
+    health: 700
+    icon: {fileID: 21300000, guid: bef2faa1caae9a34d824ae0902df13ae, type: 3}
+    buildCostGold: 300
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 0
+      seconds: 15
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 3
+    ghostPrefab: {fileID: 1395112090385466, guid: e9e6af118a07ea849a74817e97ad84a5,
+      type: 2}
+    prefab: {fileID: 1221652261397650, guid: a5994e6e971a6954f82f36457938148e, type: 2}
+    constructionPrefab: {fileID: 1070515097416596, guid: 9cb3447ff96e33a44ab8778f9bb1b1f0,
+      type: 2}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    canTrain:
+    - {fileID: 11400000, guid: 40b9416d6c19ccd4481f87a375dc8a39, type: 2}
+    - {fileID: 11400000, guid: 54f8731618be57d4785c381c88bad8bf, type: 2}
+    - {fileID: 11400000, guid: 89dedc0c064536c49b5493259bb91694, type: 2}
+    slotSizes: 080000000a000000
+  upgrades: []

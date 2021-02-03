@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2729ecc66b3a4419e166069d6c7e8c, type: 3}
+  m_Name: Graveyard
+  m_EditorClassIdentifier: 
+  name: Graveyard
+  faction: 3
+  tileWidth: 2
+  tileHeight: 2
+  original:
+    hallLevelNeeded: 1
+    health: 2600
+    icon: {fileID: 21300000, guid: af72621358c801c438d4f25833ef77b8, type: 3}
+    buildCostGold: 600
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 0
+      seconds: 15
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 5
+    ghostPrefab: {fileID: 7867299013591524756, guid: ce01dcbaaedf1b74a9471cbe7fb31645,
+      type: 3}
+    prefab: {fileID: 8160163589517234, guid: 409726aed612ff944ab2bd350b7d0690, type: 3}
+    constructionPrefab: {fileID: 7867299013591524756, guid: ce01dcbaaedf1b74a9471cbe7fb31645,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    capacity: 120
+  upgrades: []

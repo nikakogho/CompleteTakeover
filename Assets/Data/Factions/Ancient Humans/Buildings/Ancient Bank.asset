@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54afdfa41e2246c49840c68c69c306ef, type: 3}
+  m_Name: Ancient Bank
+  m_EditorClassIdentifier: 
+  name: Ancient Bank
+  faction: 0
+  tileWidth: 1
+  tileHeight: 1
+  storageType: 0
+  original:
+    hallLevelNeeded: 1
+    health: 3000
+    icon: {fileID: 21300000, guid: de03b9e61bccfe14eac87824c3d3d5d0, type: 3}
+    buildCostGold: 800
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 10
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 5
+    ghostPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    prefab: {fileID: 1033991214672496, guid: 3254fd391b9cfe74e80be08bfde62cf4, type: 3}
+    constructionPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    capacity: 7000
+  upgrades:
+  - hallLevelNeeded: 1
+    health: 5000
+    icon: {fileID: 21300000, guid: de03b9e61bccfe14eac87824c3d3d5d0, type: 3}
+    buildCostGold: 2400
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 15
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    prefab: {fileID: 1033991214672496, guid: 3254fd391b9cfe74e80be08bfde62cf4, type: 3}
+    constructionPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    capacity: 14000
+  - hallLevelNeeded: 2
+    health: 8000
+    icon: {fileID: 21300000, guid: de03b9e61bccfe14eac87824c3d3d5d0, type: 3}
+    buildCostGold: 8000
+    buildCostElixir: 0
+    buildCostGems: 1
+    buildTime:
+      hours: 0
+      minutes: 23
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    prefab: {fileID: 1033991214672496, guid: 3254fd391b9cfe74e80be08bfde62cf4, type: 3}
+    constructionPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    capacity: 28000
+  - hallLevelNeeded: 2
+    health: 14000
+    icon: {fileID: 21300000, guid: de03b9e61bccfe14eac87824c3d3d5d0, type: 3}
+    buildCostGold: 14000
+    buildCostElixir: 0
+    buildCostGems: 3
+    buildTime:
+      hours: 0
+      minutes: 31
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    prefab: {fileID: 1033991214672496, guid: 3254fd391b9cfe74e80be08bfde62cf4, type: 3}
+    constructionPrefab: {fileID: 1539887302673674, guid: ce8c45a9872ab2044bd9cdc7fa4fae9b,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    capacity: 56000

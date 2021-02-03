@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd6c621bea8b5241b5f7df88c47ff6e, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  name: Warrior
+  icon: {fileID: 21300000, guid: d7604c0b1c28d1c458b7595f7941e6e1, type: 3}
+  health: 140
+  attackRange: 2
+  moveSpeed: 6
+  unitAt: 0
+  canAttack: 0
+  attackPriority: 0
+  type: 0
+  healAmount: 0
+  healDelta: 0
+  damage: 30
+  attackSpeed: 0.6
+  splashAttack: 0
+  splashRadius: 0
+  splashDamage: 0
+  splashHeal: 0
+  attackProjectile: {fileID: 0}
+  defenseProjectile: {fileID: 0}
+  spell: 
+  unlockTime:
+    hours: 0
+    minutes: 0
+    seconds: 3
+  trainTime:
+    hours: 0
+    minutes: 0
+    seconds: 5
+  unlockCost: 0
+  trainCost: 60
+  capacity: 1
+  attackingPrefab: {fileID: 1997057527946712, guid: a9c38749684985e449b92d4c49877f0c,
+    type: 2}
+  defendingPrefab: {fileID: 1994306564212672, guid: bf3394231f17941448d77b40f0d56d2c,
+    type: 2}
+  campWalkerPrefab: {fileID: 1215304804918440, guid: 0cd3809fe09551347a58931a06e331a0,
+    type: 2}

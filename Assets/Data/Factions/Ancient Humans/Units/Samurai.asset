@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd6c621bea8b5241b5f7df88c47ff6e, type: 3}
+  m_Name: Samurai
+  m_EditorClassIdentifier: 
+  name: Samurai
+  icon: {fileID: 21300000, guid: 173177307ebae7c4cbdb79fe193e5215, type: 3}
+  health: 1000
+  attackRange: 4
+  moveSpeed: 6
+  unitAt: 0
+  canAttack: 0
+  attackPriority: 6
+  type: 0
+  healAmount: 0
+  healDelta: 0
+  damage: 200
+  attackSpeed: 0.5
+  splashAttack: 0
+  splashRadius: 0
+  splashDamage: 0
+  splashHeal: 0
+  attackProjectile: {fileID: 0}
+  defenseProjectile: {fileID: 0}
+  spell: 
+  unlockTime:
+    hours: 6
+    minutes: 0
+    seconds: 0
+  trainTime:
+    hours: 0
+    minutes: 6
+    seconds: 0
+  unlockCost: 50000
+  trainCost: 1300
+  capacity: 4
+  attackingPrefab: {fileID: 1781452104147686, guid: 70534eaefd0ea51448fe75f40bc8d863,
+    type: 2}
+  defendingPrefab: {fileID: 1224944495931466, guid: f811ef652096a3e4197f454c19b13218,
+    type: 2}
+  campWalkerPrefab: {fileID: 1101237713067152, guid: 6761826243cce1c4bb20e2c1c1e8ca2a,
+    type: 2}

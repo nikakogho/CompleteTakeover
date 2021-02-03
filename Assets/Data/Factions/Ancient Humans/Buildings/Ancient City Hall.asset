@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c893a03d2c366489aae88407abca6b, type: 3}
+  m_Name: Ancient City Hall
+  m_EditorClassIdentifier: 
+  name: Ancient City Hall
+  faction: 0
+  tileWidth: 12
+  tileHeight: 6
+  original:
+    hallLevelNeeded: 1
+    health: 1000
+    icon: {fileID: 21300000, guid: 3566fbdc2a9d076478e0d9dc73d0b0e2, type: 3}
+    buildCostGold: 0
+    buildCostElixir: 0
+    buildCostGems: 0
+    buildTime:
+      hours: 0
+      minutes: 0
+      seconds: 1
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    prefab: {fileID: 1431287148065092, guid: dad7f46ceac89ab42ad5b171aabe9f1c, type: 3}
+    constructionPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    goldCapacity: 9000
+    elixirCapacity: 9000
+    dutiesDescription: Just the usual stuff
+    buildings:
+    - building: {fileID: 11400000, guid: 14ae3cecd3e24b045a24c096d229e92f, type: 2}
+      amount: 4
+    - building: {fileID: 11400000, guid: 7b4227c982403a844aa0b97d06280994, type: 2}
+      amount: 4
+    - building: {fileID: 11400000, guid: e3a22d91ae145e0499f4558d7556041c, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: bacef5564e58d4b48b251b2a26977eec, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: f7fef63e82eab044bbec02f8c52c3321, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: b058c40938d80794b847853217bf338d, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: 65c371681c64fa44db555cdf37521bc3, type: 2}
+      amount: 1
+  upgrades:
+  - hallLevelNeeded: 1
+    health: 2000
+    icon: {fileID: 21300000, guid: 3566fbdc2a9d076478e0d9dc73d0b0e2, type: 3}
+    buildCostGold: 20000
+    buildCostElixir: 0
+    buildCostGems: 2
+    buildTime:
+      hours: 0
+      minutes: 10
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    prefab: {fileID: 1431287148065092, guid: dad7f46ceac89ab42ad5b171aabe9f1c, type: 3}
+    constructionPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    goldCapacity: 9000
+    elixirCapacity: 9000
+    dutiesDescription: Basically same but some upgrades added I guess
+    buildings:
+    - building: {fileID: 11400000, guid: e3a22d91ae145e0499f4558d7556041c, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: bacef5564e58d4b48b251b2a26977eec, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: 14ae3cecd3e24b045a24c096d229e92f, type: 2}
+      amount: 2
+    - building: {fileID: 11400000, guid: 7b4227c982403a844aa0b97d06280994, type: 2}
+      amount: 2
+    - building: {fileID: 11400000, guid: 65c371681c64fa44db555cdf37521bc3, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: d46959833c9480f419795fd66abadce5, type: 2}
+      amount: 50
+    - building: {fileID: 11400000, guid: 115355a8ca275514d877becc521dcc36, type: 2}
+      amount: 5
+  - hallLevelNeeded: 2
+    health: 5000
+    icon: {fileID: 21300000, guid: 3566fbdc2a9d076478e0d9dc73d0b0e2, type: 3}
+    buildCostGold: 120000
+    buildCostElixir: 0
+    buildCostGems: 3
+    buildTime:
+      hours: 4
+      minutes: 0
+      seconds: 0
+    repairTime:
+      hours: 0
+      minutes: 0
+      seconds: 6
+    ghostPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    prefab: {fileID: 1431287148065092, guid: dad7f46ceac89ab42ad5b171aabe9f1c, type: 3}
+    constructionPrefab: {fileID: 1431287148065092, guid: ccc8facb243090b48b8a1529a48ec9dd,
+      type: 3}
+    destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+    repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+    goldCapacity: 9000
+    elixirCapacity: 9000
+    dutiesDescription: More upgrades
+    buildings:
+    - building: {fileID: 11400000, guid: e3a22d91ae145e0499f4558d7556041c, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: bacef5564e58d4b48b251b2a26977eec, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: 14ae3cecd3e24b045a24c096d229e92f, type: 2}
+      amount: 2
+    - building: {fileID: 11400000, guid: 7b4227c982403a844aa0b97d06280994, type: 2}
+      amount: 2
+    - building: {fileID: 11400000, guid: 65c371681c64fa44db555cdf37521bc3, type: 2}
+      amount: 1
+    - building: {fileID: 11400000, guid: d46959833c9480f419795fd66abadce5, type: 2}
+      amount: 30
+    - building: {fileID: 11400000, guid: 115355a8ca275514d877becc521dcc36, type: 2}
+      amount: 5

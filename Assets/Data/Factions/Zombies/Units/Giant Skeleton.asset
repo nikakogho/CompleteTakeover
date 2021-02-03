@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd6c621bea8b5241b5f7df88c47ff6e, type: 3}
+  m_Name: Giant Skeleton
+  m_EditorClassIdentifier: 
+  name: Giant Skeleton
+  icon: {fileID: 21300000, guid: d94492f00397de54abec92843a144640, type: 3}
+  health: 1400
+  attackRange: 5
+  moveSpeed: 8
+  unitAt: 0
+  canAttack: 0
+  attackPriority: 4
+  type: 0
+  healAmount: 0
+  healDelta: 0
+  damage: 250
+  attackSpeed: 0.25
+  splashAttack: 1
+  splashRadius: 3
+  splashDamage: 80
+  splashHeal: 0
+  attackProjectile: {fileID: 0}
+  defenseProjectile: {fileID: 0}
+  spell: 
+  unlockTime:
+    hours: 2
+    minutes: 0
+    seconds: 0
+  trainTime:
+    hours: 0
+    minutes: 3
+    seconds: 0
+  unlockCost: 180000
+  trainCost: 8000
+  capacity: 5
+  attackingPrefab: {fileID: 1214512245941972, guid: 484d2ba505e7ad74ab1c8314600d6da5,
+    type: 2}
+  defendingPrefab: {fileID: 1419702589663478, guid: a0815efbe257f5443bfd93101959f5ca,
+    type: 2}
+  campWalkerPrefab: {fileID: 1140138623261648, guid: c5b615180c33157458bcb6e58e8f412e,
+    type: 2}

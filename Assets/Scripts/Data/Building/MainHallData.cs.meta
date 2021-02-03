@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f5c893a03d2c366489aae88407abca6b
+timeCreated: 1587502296
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {instanceID: 0}
+  - ghostPrefab: {instanceID: 0}
+  - prefab: {instanceID: 0}
+  - destroySound: {fileID: 8300000, guid: ff51f2e73dc419f4085eaa08b81a74d6, type: 3}
+  - repairSound: {fileID: 8300000, guid: fb133097603b1014ca17fb56f2445d22, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
